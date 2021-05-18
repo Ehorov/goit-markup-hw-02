@@ -1,0 +1,95 @@
+body {
+  font-family: "Raleway" "Roboto", sans-serif;
+}
+body {
+  position: center;
+}
+.txt-bl {
+  color: #2196f3;
+}
+.webstudio {
+  color: black;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  text-decoration: none;
+  margin-left: 215px;
+}
+li {
+  list-style-type: none;
+  position: center;
+}
+.menu {
+  display: inline-flex;
+  justify-content: space-between;
+  flex-basis: auto;
+}
+h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+}
+.header-sections {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  margin: 0 0 0 0;
+}
+.main-header-sections {
+  background-color: #2f303a;
+  color: white;
+  text-transform: uppercase;
+  font-size: 44px;
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  margin-top: 80px;
+}
+.text-main-header-sections {
+  margin-top: 280px;
+  margin-left: 452px;
+}
+.btn-blue {
+  color: white;
+  background-color: #2196f3;
+  width: 200px;
+  height: 50px;
+  border-radius: 4%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+}
+.main-list-sections {
+  position: absolute;
+  width: 1170px;
+  height: 101px;
+  margin-top: 774px;
+}
+.work-sections {
+  position: absolute;
+  width: 1170px;
+  height: 386px;
+  margin-top: 969px;
+}
+.team-sections {
+  background-color: #f5f4fa;
+  position: absolute;
+  width: 1600px;
+  height: 648px;
+  margin-top: 1449px;
+}
+.footer-sections {
+  background-color: #2f303a;
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  margin-top: 2097px;
+}
+.footer-adress-sections {
+  margin-left: 215px;
+}
+
+/* Portfilio*/
