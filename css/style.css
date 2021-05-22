@@ -147,3 +147,32 @@ h3 {
   line-height: 24px;
 }
 /* Portfilio*/
+h4 {
+  color: #212121;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+}
+.portfolio-about {
+  color: #757575;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+.btn-port {
+  color: #212121;
+  background-color: #f5f4fa;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+.btn-port:hover {
+  color: white;
+  background-color: #2196f3;
+}
