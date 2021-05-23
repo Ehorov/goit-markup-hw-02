@@ -97,6 +97,7 @@ h3 {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
+  border: none;
 }
 .about {
   color: #757575;
@@ -174,6 +175,7 @@ h4 {
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
+  border: none;
 }
 .btn-port:hover {
   color: white;
