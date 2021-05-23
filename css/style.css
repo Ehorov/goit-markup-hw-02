@@ -14,6 +14,8 @@ a {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
   text-decoration: none;
 }
 
@@ -27,15 +29,23 @@ li {
 }
 
 h1 {
+  color: #fff;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 h2 {
+  color: #212121;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 h3 {
   color: #212121;
@@ -43,6 +53,8 @@ h3 {
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .header-link {
@@ -51,6 +63,7 @@ h3 {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
+  letter-spacing: 0.02em;
 }
 .header-link a {
   color: #212121;
@@ -65,6 +78,7 @@ h3 {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
+  letter-spacing: 0.02em;
 }
 .header-mail a {
   color: rgba(117, 117, 117, 1);
@@ -77,6 +91,7 @@ h3 {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
+  letter-spacing: 0.02em;
 }
 .header-phone a {
   color: rgba(117, 117, 117, 1);
@@ -86,9 +101,6 @@ h3 {
 }
 .main-header-sections {
   background-color: #2f303a;
-  color: white;
-  text-transform: uppercase;
-  font-size: 44px;
 }
 .btn-blue {
   color: white;
@@ -97,6 +109,11 @@ h3 {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
   border: none;
 }
 .about {
@@ -105,6 +122,7 @@ h3 {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+  letter-spacing: 0.03em;
 }
 .team-employee {
   color: black;
@@ -112,6 +130,8 @@ h3 {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .team-position {
   color: #757575;
@@ -119,6 +139,8 @@ h3 {
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .footer-sections {
   background-color: #2f303a;
@@ -130,6 +152,7 @@ h3 {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+  letter-spacing: 0.03em;
 }
 
 .footer-mail {
@@ -139,6 +162,7 @@ h3 {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+  letter-spacing: 0.03em;
 }
 .footer-phone {
   color: rgba(255, 255, 255, 0.6);
@@ -147,26 +171,13 @@ h3 {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+  letter-spacing: 0.03em;
 }
 
 .white {
   color: white;
 }
 /* Portfilio*/
-h4 {
-  color: #212121;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 36px;
-}
-.portfolio-about {
-  color: #757575;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 30px;
-}
 .btn-port {
   color: #212121;
   background-color: #f5f4fa;
@@ -175,9 +186,28 @@ h4 {
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
   border: none;
 }
 .btn-port:hover {
   color: white;
   background-color: #2196f3;
+}
+
+h4 {
+  color: #212121;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+.portfolio-about {
+  color: #757575;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
 }
